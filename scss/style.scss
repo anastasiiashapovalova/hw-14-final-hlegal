@@ -1,0 +1,60 @@
+@import "destyle";
+@import "mixins";
+@import "vars";
+
+body {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: $color-text-primary;
+}
+
+.container {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    background-color: $background-color-primary;
+}
+
+.logo,
+.nav-wrapper,
+.nav__list,
+.contacts__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.logo {
+    align-items: center;
+    &__link {
+
+    }
+    &__img {
+
+    }
+    &__text {
+        
+    }
+}
+
+.nav {
+    &__list {
+
+    }
+    &__item {
+
+    }
+
+    &__link {
+    
+    }
+}
+
+.link {
+    display: block;
+}
