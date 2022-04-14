@@ -8,8 +8,17 @@ $color-text-primary: #000000;
 $color-text-secondary:#FFFFFF;
 $color-text-tertiary:  #323264;
 $color-text-quaternary: #B3B3BA;
-$color-text-active: #24A3FF;
-$color-text-hover: #F0145A;
+$color-text-hover: #24A3FF;
+$color-text-active: #F0145A;
 
 //border
 $border-color: 4px Solid #E6E6F0;
+
+//font-size:
+$font-weight-primary: 400;
+$font-weight-secondary: 700;
+
+.dfb {
+    display: flex;
+    flex-wrap: wrap;
+}
